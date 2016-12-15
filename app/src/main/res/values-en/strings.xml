@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Offering</string>
+    <string name="btn_aceptar">Accept</string>
+    <string name="main_ofertas_deportes">Show sports offers</string>
+    <string name="main_ofertas_electronica">Show electronics offers</string>
+    <string name="main_ofertas_hogar">Show home offers</string>
+    <string name="main_ofertas_importancia">Show the importance of the offers</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="types">
+        <item>Hogar</item>
+        <item>Electrónica</item>
+        <item>Deportes</item>
+    </string-array>
+    <string-array name="importance">
+        <item>No importante</item>
+        <item>Importante</item>
+        <item>Muy importante</item>
+    </string-array>
+</resources>

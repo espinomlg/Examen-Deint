@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+
+    <TextView
+        android:text="@string/txv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:id="@+id/addoffer_txv_name" />
+
+    <TextView
+        android:text="@string/txv_store"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addoffer_txv_name"
+        android:layout_alignStart="@+id/addoffer_txv_name"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:id="@+id/addoffer_txv_store" />
+
+    <TextView
+        android:text="@string/txv_fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addoffer_txv_store"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:id="@+id/addoffer_txv_date" />
+
+    <TextView
+        android:text="@string/txv_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addoffer_txv_date"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:id="@+id/addoffer_txv_type" />
+
+    <TextView
+        android:text="@string/importancia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addoffer_txv_type"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_alignParentStart="true"
+        android:id="@+id/addoffer_txv_importance" />
+
+    <Button
+        android:text="@string/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addoffer_txv_importance"
+        android:background="@drawable/btn_shape"
+        android:layout_centerHorizontal="true"
+        android:onClick="add"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:id="@+id/addoffer_btn" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_toEndOf="@id/addoffer_txv_name"
+
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:id="@+id/addoffer_edt_name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/addoffer_edt_name"
+        android:layout_alignEnd="@+id/addoffer_edt_name"
+        android:layout_alignBaseline="@id/addoffer_txv_store"
+        android:id="@+id/addoffer_edt_store" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:layout_below="@+id/addoffer_edt_store"
+        android:layout_alignStart="@+id/addoffer_edt_store"
+        android:layout_alignBaseline="@id/addoffer_txv_date"
+        android:id="@+id/addoffer_edt_date" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addoffer_spn_importance"
+        android:layout_alignTop="@+id/addoffer_txv_importance"
+        android:layout_toEndOf="@id/addoffer_txv_type"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/addoffer_txv_type"
+        android:layout_toEndOf="@+id/addoffer_txv_type"
+        android:id="@+id/addoffer_spn_type" />
+
+</RelativeLayout>

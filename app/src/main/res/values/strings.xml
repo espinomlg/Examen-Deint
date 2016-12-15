@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Offering</string>
+    <string name="main_ofertas_hogar">Mostrar ofertas de hogar</string>
+    <string name="main_header">Configuración offering</string>
+    <string name="main_ofertas_electronica">Mostrar ofertas de electrónica</string>
+    <string name="main_ofertas_deportes">Mostrar ofertas de deportes</string>
+    <string name="main_ofertas_importancia">Mostrar la importancia de las ofertas</string>
+    <string name="btn_aceptar">Aceptar</string>
+    <string name="error_configuration">Debe seleccionar al menos un tipo de oferta</string>
+    <string name="list_empty">No se han encontrado ofertas</string>
+    <string name="menuitem_sortbytype">sortByType</string>
+    <string name="menuitem_alphabeticall">sortAlphabeticall</string>
+    <string name="menuitem_alphabeticallinverse">sortAlphabeticallInverse</string>
+    <string name="context_menu_item">información App</string>
+    <string name="dialog_title">Offering</string>
+    <string name="dialog_message">Aplicación desarrollada por Andrés Espino López</string>
+    <string name="btn_add">Añadir</string>
+    <string name="txv_name">Nombre:</string>
+    <string name="txv_store">Tienda:</string>
+    <string name="txv_fecha">Fecha:</string>
+    <string name="txv_type">Tipo:</string>
+    <string name="importancia">Importancia:</string>
+    <string name="dialog_error_message">No se ha podido realizar la operacion</string>
+</resources>

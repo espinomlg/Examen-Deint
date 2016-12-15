@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/black"
+        android:id="@+id/offeritem_txv_store" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_below="@+id/offeritem_txv_store"
+        android:layout_alignParentStart="true"
+        android:id="@+id/offeritem_img" />
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/offeritem_txv_store"
+        android:layout_toEndOf="@+id/offeritem_img"
+        android:textSize="@dimen/header_size"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/offeritem_txv_name" />
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/offeritem_txv_name"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/black"
+        android:id="@+id/offeritem_txv_date" />
+</RelativeLayout>
